@@ -1,12 +1,10 @@
 
 body {
-    background: #649173; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DBD5A4, #649173); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: white; /* fallback for old browsers */
 
-    font-family: 'Catamaran', sans-serif;
-    font-weight: 200;
-    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
 }
 
 .section {
@@ -17,8 +15,12 @@ body {
 }
 
 .bis {
-    background-color: white;
-    color: black;
+    background-color: rgba(255, 255, 255, .22);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .22);
 }
 
 .horizontal {
