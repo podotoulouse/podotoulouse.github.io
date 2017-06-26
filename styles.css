@@ -1,10 +1,9 @@
 
 body {
-    background: white; /* fallback for old browsers */
+    background: rgb(247, 247, 247); /* fallback for old browsers */
 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: black;
 }
 
 .menu {
@@ -12,31 +11,24 @@ body {
     position: fixed;
     z-index: 10;
     width: 100%;
+    min-height: 60px;
 }
 
 .section {
     padding-top: 6rem;
     padding-bottom: 6rem;
     min-height: 100%;
+    color: rgba(0, 0, 0, .7);
 }
 
 .main {
     background: url("images/cabinet_podologie_posturologie_cactus.jpg") fixed;
     background-size: cover;
+    color: #3b002d;
 }
 
-.bis {
-    background-color: rgba(255, 255, 255, .22);
-
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .22);
-}
-
-.horizontal {
-    display: flex;
-    flex-direction: row;
+h1, h2 {
+    margin-bottom: 40px;
 }
 
 p {
