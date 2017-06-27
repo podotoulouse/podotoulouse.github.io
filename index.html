@@ -9,7 +9,7 @@
     <link href="styles.css" rel="stylesheet">
     <title>Podologie & posturologie - avenue de muret - Toulouse</title>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Podiatric">
 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded menu">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -47,7 +47,8 @@
         <div class="row">
             <div class="column">
                 <h1>Leïla Gjini, podologue & posturologue</h1>
-                <h2>Bilan podologique et postural, semelles et appareillages, soins de pédicurie</h2>
+                <h2 itemprop="description">Bilan podologique et postural, semelles et appareillages, soins de
+                    pédicurie</h2>
                 <p>75 bis avenue de Muret - 31300 Toulouse</p>
                 <p>05 61 42 63 15</p>
                 <p>Le cabinet vous accueille sur rendez-vous en semaine. Des soins peuvent également être réalisés à
@@ -62,10 +63,10 @@
         <h1>La podologue</h1>
         <div class="row" style="align-items: center">
             <div class="col">
-                <img src="images/leila_gjini_podologue_posturologue.jpg"/>
+                <img itemprop="image" src="images/leila_gjini_podologue_posturologue.jpg"/>
             </div>
             <div class="col">
-                <h3>Leïla Gjini</h3>
+                <h3 itemprop="name">Leïla Gjini</h3>
                 <p>Diplôme d'état de Pédicure Podologue obtenu à Toulouse en 2010</p>
                 <p>Formation de posturologue à Paris</p>
             </div>
@@ -112,18 +113,24 @@
     <div class="container">
         <h1>Contact</h1>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <div class="row">
                     <div class="col-1"><i class="material-icons">phone</i></div>
-                    <div class="col"><p>05 61 42 63 15</p></div>
+                    <div class="col"><p itemprop="telephone">05 61 42 63 15</p></div>
                 </div>
                 <div class="row">
                     <div class="col-1"><i class="material-icons">email</i></div>
-                    <div class="col"><p>gjini.podo@gmail.com</p></div>
+                    <div class="col"><p itemprop="email">gjini.podo@gmail.com</p></div>
                 </div>
                 <div class="row">
                     <div class="col-1"><i class="material-icons">location_on</i></div>
-                    <div class="col"><p>75 bis avenue de Muret - 31300 Toulouse</p></div>
+                    <div class="col">
+                        <p>
+                            <span itemprop="streetAddress">75 bis avenue de Muret</span>
+                            <span itemprop="postalCode">31300</span>
+                            <span itemprop="addressLocality">Toulouse</span>
+                        </p>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-1"><i class="material-icons">directions_transit</i></div>
