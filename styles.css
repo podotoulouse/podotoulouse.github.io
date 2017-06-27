@@ -27,6 +27,14 @@ body {
     color: #3b002d;
 }
 
+footer {
+    background-color: #4d4d4d;
+    color: rgb(247, 247, 247);
+    text-align: right;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 h1, h2 {
     margin-bottom: 40px;
 }
